@@ -12,11 +12,10 @@ export default {
     _c[_ops.curIndex].className += ` ${_ops.activeClass}`;
   },
   update(el, binding, vnode) {
-    console.log("update");
     const _ops = binding.value,
       _oOps = binding.oldValue,
       _c = el.getElementsByClassName(_ops.className);
-    _c[_oOps.curIndex].className = ` ${_oOps.className}`;
+    _c[_oOps.curIndex].className = `${_oOps.className}`;
     _c[_ops.curIndex].className += ` ${_ops.activeClass}`;
   },
 };
