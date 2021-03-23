@@ -1,3 +1,3 @@
 # custom-directives
 
-自定义指令练习
+Vue-自定义指令练习
